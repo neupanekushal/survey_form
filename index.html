@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+    <style></style>
+    <title>Survey Form</title>
+  </head>
+  <body class="bodyclass">
+    <form class="formclass">
+    </br>
+      <div class="logo"> 
+        <img src="tree-logo-free-vector.jpg" height="100px">
+      </div>
+      <div>
+      <h1 class="first">Tree Survey Form</h1>
+      <h3 class="second">A survey form on the health of the enviroment</h3>
+      </div>
+      <div class="personalinfo">
+        <label for="name">Name:</label></br>
+        <input
+          type="text"
+          placeholder="Enter your name e.g John Doe"
+          name="userName"
+          id="name"
+          required
+        />
+          </br>
+          </br>
+          </br>
+  
+  
+        <label for="email">Email:</label> </br>
+        <input type="email" placeholder="xyz@someplace.com" name="myEmail" id="email" required/>
+      </br>
+      </br>
+  
+        <label for="number"> Age(Optional):</label> </br>
+        <input type="text" name="myAge" id="number" placeholder="10"/>
+      </br>
+      </br>
+  
+  
+        <label for="continent">Select Continent of residence</label> </br>
+        <select id="continent" name="continent" required>
+          <option>--select continent--</option>
+          <option>Asia</option>
+          <option>Europe</option>
+          <option>Africe</option>
+          <option>Australia</option>
+          <option>North America</option>
+          <option>South America</option>
+          <option>Antartica</option>
+        </select>
+      </br>
+      </br>
+
+      </div>
+      
+
+    <h1 class="h1class">Choose your prefered gender</h1>
+
+    
+    <div class="choice">
+    <input type="radio" name="Gender" id="myGender" />
+    <label for="myGender">Female</label>
+
+    </br>
+    <input type="radio" name="Gender" id="Gender" />
+    <label for="Gender">Male</label>
+
+    </br>
+    <input type="radio" name="Gender" id="my_Gender" >
+    <label for="my_Gender">Other</label>
+    
+    
+   
+
+     
+
+    </br>
+    </br>
+    <h1 class="classh1">Please select at least one of the options below:</h1>
+
+    
+    <input type = "checkbox"  id="plant1"/>
+    <label for="plant1"> I have planted a tree of any other plant</label></br>
+    <input type = "checkbox"  id="plant2">
+    <label for="plant2">I take part in the community service for the enviroment</label></br>
+    <input type = "checkbox"  id="plant3">
+    <label for="plant3">I promise to plant more from now on</label>
+
+    </div>
+
+    </br>
+    </br>
+    <h1 class="h1class">Any comments or suggestions</h1>
+    <textarea class="box" rows="10" cols="80" placeholder = "Comments/suggestions..."></textarea>
+
+    </br>
+    </br>
+
+    
+    <input class="provide" type="submit" id="submit" />
+
+    
+
+
+    </form>
+  </body>
+</html>

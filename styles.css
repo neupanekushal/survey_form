@@ -1,0 +1,63 @@
+.bodyclass {
+  background-image: url(forest.jpeg);
+}
+.formclass {
+  color: rgba(245, 245, 245, 1);
+
+  margin-left: 250px;
+  margin-right: 275px;
+  background-color: rgba(9, 9, 9, 0.75);
+}
+.logo {
+  background-color: rgba(245, 245, 245, 0);
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.first {
+  margin-left: 250px;
+}
+
+.second {
+  margin-left: 200px;
+}
+
+.personalinfo {
+  margin-left: 50px;
+}
+
+.personalinfo > input {
+  width: 600px;
+  height: 30px;
+}
+
+div > select {
+  width: 600px;
+  height: 30px;
+}
+
+.h1class {
+  margin-left: 150px;
+}
+
+.choice > input {
+  margin-left: 50px;
+}
+
+.classh1 {
+  margin-left: 70px;
+}
+
+.box {
+  margin-left: 45px;
+}
+
+.provide {
+  margin-left: 130px;
+  margin-bottom: 25px;
+  color: white;
+  background-color: rgb(18, 165, 18);
+  height: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  border-color: rgb(18, 165, 18);
+}
